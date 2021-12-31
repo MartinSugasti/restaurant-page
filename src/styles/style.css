@@ -1,0 +1,62 @@
+body, html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: url('../images/restaurant.jpeg');
+  height: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  height: 40px;
+  text-align: center;
+
+
+  background-color: black;
+  border-bottom: 1px solid rgba(110,110,110,0.5);
+}
+
+nav button {
+  height: 100%;
+  padding: 0 1em;
+  font-size: 1.3em;
+  background: none;
+  border: none;
+  color: white;
+}
+
+nav button:hover {
+  color: grey;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+nav button.selected {
+  color: grey;
+}
+
+footer {
+  height:7vh;
+  color:white;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  position:absolute;
+  max-width:100%;
+  bottom:0;
+  left:0;
+  right:0;
+  text-align:center;
+  padding: 0 1em;
+  box-sizing:border-box;
+}
+
+.container {
+  text-align: center;
+  color: white;
+  margin-top: 100px;
+}
